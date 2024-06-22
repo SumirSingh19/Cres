@@ -10,74 +10,74 @@ const Intro =   () => {
         <div className="px-28 sm:px-3 pt-20">
             <div className="flex gap-36 sm:gap-20 sm:flex-col items-center">
                 <div>
-                    <img src={INTRO} className="w-[35rem] sm:w-[20rem]" alt="" />
+                    <img src={INTRO} className="w-[35rem] 2xl:w-[59rem] sm:w-[20rem]" alt="" />
                 </div>
-                <div className="text-6xl sm:text-3xl font-semibold w-6/12 sm:w-10/12 pb-12">
+                <div className="text-6xl 2xl:text-7xl sm:text-3xl font-semibold w-6/12 sm:w-10/12 pb-12">
                     <span>Transforming ideas into interactive realities.</span>
                 </div>
             </div>
-            <div className="pt-20 sm:pt-2 flex sm:flex-col gap-60 sm:gap-40">
-                <div className="pl-12 sm:pl-8 flex flex-wrap sm:flex-col w-[30rem] sm:gap-10 sm:w-full">
+            <div className="pt-20 sm:pt-2 flex sm:flex-col gap-60 2xl:gap-72 sm:gap-40">
+                <div className="pl-12 2xl:pl-20 sm:pl-8 flex flex-wrap sm:flex-col w-[30rem] 2xl:w-[36rem] sm:gap-10 sm:w-full">
                     <div className="flex flex-col gap-3">
-                        <div className="text-3xl sm:text-xl font-semibold">
+                        <div className="text-3xl 2xl:text-4xl sm:text-xl font-semibold">
                             <span className="font-inter">UI DESIGN</span>
                         </div>
                         <div>
-                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] sm:text-[0.4rem]">
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">User survey & results analysis</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Concept validation</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Usability testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">A/B testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Results Report</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Improvements Implementation</li>
+                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] 2xl:text-[0.6rem] sm:text-[0.4rem]">
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">User survey & results analysis</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Concept validation</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Usability testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">A/B testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Results Report</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Improvements Implementation</li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="flex flex-col gap-3">
-                        <div className="text-3xl font-semibold sm:text-xl">
+                        <div className="text-3xl 2xl:text-4xl font-semibold sm:text-xl">
                             <span className="font-inter">WEBSITES</span>
                         </div>
                         <div>
-                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] sm:text-[0.4rem]">
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">User survey & results analysis</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Concept validation</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Usability testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">A/B testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Results Report</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Improvements Implementation</li>
+                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] 2xl:text-[0.6rem] sm:text-[0.4rem]">
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">User survey & results analysis</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Concept validation</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Usability testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">A/B testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Results Report</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Improvements Implementation</li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="flex flex-col gap-3">
-                        <div className="text-3xl font-semibold sm:text-xl">
+                        <div className="text-3xl 2xl:text-4xl font-semibold sm:text-xl">
                             <span className="font-inter">BRANDING</span>
                         </div>
                         <div>
-                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] sm:text-[0.4rem]">
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">User survey & results analysis</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Concept validation</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Usability testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">A/B testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Results Report</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Improvements Implementation</li>
+                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] 2xl:text-[0.6rem] sm:text-[0.4rem]">
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">User survey & results analysis</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Concept validation</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Usability testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">A/B testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Results Report</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Improvements Implementation</li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="flex flex-col gap-3">
-                        <div className="text-3xl font-semibold sm:text-xl">
+                        <div className="text-3xl 2xl:text-4xl font-semibold sm:text-xl">
                             <span className="font-inter">CONTENT CREATION</span>
                         </div>
                         <div>
-                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] sm:text-[0.4rem]">
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">User survey & results analysis</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Concept validation</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Usability testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">A/B testing</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Results Report</li>
-                                <li className="border border-black rounded-full px-2 py-1 font-bold">Improvements Implementation</li>
+                            <ul className="flex flex-wrap gap-2 uppercase text-[0.55rem] 2xl:text-[0.6rem] sm:text-[0.4rem]">
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">User survey & results analysis</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Concept validation</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Usability testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">A/B testing</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Results Report</li>
+                                <li className="border border-black rounded-full px-2 py-1 2xl:px-3 2xl:py-2 font-bold">Improvements Implementation</li>
                             </ul>
                         </div>
                     </div>
@@ -86,10 +86,10 @@ const Intro =   () => {
                 <div className="flex flex-col gap-20 w-4/12 sm:w-11/12 sm:pl-8">
                     <div>
                         <div className="flex gap-2">
-                            <img src={IMG1} className="w-6 h-6 mt-1 sm:w-5" alt="" />
-                            <span className="font-bold">Discovery</span>
+                            <img src={IMG1} className="w-6 h-6 mt-1 sm:w-5 2xl:w-7 2xl:h-7" alt="" />
+                            <span className="font-bold 2xl:text-lg">Discovery</span>
                         </div>
-                        <div className="pl-8 text-sm sm:text-xs">
+                        <div className="pl-8 text-sm 2xl:text-base sm:text-xs">
                             <span>
                                 This stage enables us to gain an initial understanding of the
                                 project and business objectives. It involves reviewing initial data,
@@ -100,10 +100,10 @@ const Intro =   () => {
 
                     <div>
                         <div className="flex gap-2.5">
-                            <img src={IMG2} className="w-5 h-5 mt-1 sm:mt-0.5 sm:w-5 " alt="" />
-                            <span className="font-bold">Research</span>
+                            <img src={IMG2} className="w-5 h-5 mt-1 sm:mt-0.5 sm:w-5 2xl:w-7 2xl:h-7 " alt="" />
+                            <span className="font-bold 2xl:text-lg">Research</span>
                         </div>
-                        <div className="pl-8 text-sm sm:text-xs">
+                        <div className="pl-8 text-sm 2xl:text-base sm:text-xs">
                             <span>
                                 This stage helps to get insights into the product, conducting
                                 market research, analyzing the competitors, identifying users&apos;
@@ -114,10 +114,10 @@ const Intro =   () => {
 
                     <div>
                         <div className="flex gap-2">
-                            <img src={IMG3} className="w-5 h-5 mt-1 sm:w-5" alt="" />
-                            <span className="font-bold">Analysis</span>
+                            <img src={IMG3} className="w-5 h-5 mt-1 sm:w-5 2xl:w-7 2xl:h-7" alt="" />
+                            <span className="font-bold 2xl:text-lg">Analysis</span>
                         </div>
-                        <div className="pl-8 text-sm sm:text-xs">
+                        <div className="pl-8 text-sm 2xl:text-base sm:text-xs">
                             <span>
                                 This step involves applying design thinking to structure the
                                 project. It's akin to piecing together a puzzle, transforming
@@ -128,10 +128,10 @@ const Intro =   () => {
 
                     <div>
                         <div className="flex gap-2">
-                            <img src={IMG4} className="w-5 h-5 mt-1 sm:w-4 sm:h-4" alt="" />
-                            <span className="font-bold">Implementation</span>
+                            <img src={IMG4} className="w-5 h-5 mt-1 sm:w-4 sm:h-4 2xl:w-7 2xl:h-7" alt="" />
+                            <span className="font-bold 2xl:text-lg">Implementation</span>
                         </div>
-                        <div className="pl-8 text-sm sm:text-xs">
+                        <div className="pl-8 text-sm 2xl:text-base sm:text-xs">
                             <span>
                                 At this stage, we bring the design to life by creating the visual
                                 components of the interface. Building on the established UX
@@ -143,10 +143,10 @@ const Intro =   () => {
 
                     <div>
                         <div className="flex gap-2">
-                            <img src={IMG5} className="w-5 h-5 pt-1 sm:w-5" alt="" />
-                            <span className="font-bold">Validation</span>
+                            <img src={IMG5} className="w-5 h-5 pt-1 sm:w-5 2xl:w-7 2xl:h-7" alt="" />
+                            <span className="font-bold 2xl:text-lg">Validation</span>
                         </div>
-                        <div className="pl-8 text-sm sm:text-xs">
+                        <div className="pl-8 text-sm 2xl:text-base sm:text-xs">
                             <span>
                                 We recommend to our clients the inclusion of validation and
                                 user testing services. This approach strengthens the usability of

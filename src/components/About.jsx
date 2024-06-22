@@ -5,13 +5,13 @@ import VIDEO from "../assets/vid.mp4";
 
 const About = () => {
     return (
-        <div className="pt-32 sm:pt-10 flex sm:flex-col items-center justify-evenly px-60 sm:px-10 pb-10">
+        <div className="pt-32 sm:pt-10 flex sm:flex-col items-center justify-evenly px-60 2xl:px-32 xl:px-28 sm:px-10 pb-10">
             <div>
-                <div className="text-6xl sm:text-3xl font-semibold font-inter w-5/12 pt-20">
+                <div className="text-6xl 2xl:text-7xl sm:text-3xl font-semibold font-inter w-5/12 pt-20">
                     <span>About CrestMediaTekAi</span>
                 </div>
 
-                <div className="w-10/12 sm:w-11/12 text-sm sm:text-[0.6rem] font-inter flex flex-col py-14 sm:py-7 gap-5">
+                <div className="w-10/12 sm:w-11/12 text-sm sm:text-[0.6rem] 2xl:text-base font-inter flex flex-col py-14 sm:py-7 gap-5">
                     <span>
                         If our clients are happy, then so are we. And we put our hearts into collectively
                         creating pivotal pathways for your brand to be seen and heard by the crowd.
@@ -23,7 +23,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <button className="bg-[#222222] text-white text-sm sm:text-[0.6rem] font-inter rounded-full px-9 sm:px-5 py-3 sm:py-1 sm:mb-6">
+                    <button className="bg-[#222222] text-white text-sm sm:text-[0.6rem] 2xl:text-base font-inter rounded-full px-9 sm:px-5 py-3 sm:py-1 sm:mb-6">
                         <span>Become our Client</span>
                     </button>
                 </div>
