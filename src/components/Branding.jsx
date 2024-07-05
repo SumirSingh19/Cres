@@ -5,11 +5,11 @@ import PHOTO3 from "../assets/3.jpg";
 
 const Branding = () => {
     return (
-        <div className="flex sm:flex-col items-center justify-evenly px-60 xl:px-24 sm:px-10 gap-36 xl:gap-16 sm:gap-5 py-10 xl:py-20">
-            <div className="h-[39.5rem] xl:h-[16rem] xl:mb-96">
-                <video src={VIDEO} autoPlay loop muted className=""></video>
+        <div className="flex sm:flex-col items-center justify-evenly px-60 xl:px-24 sm:px-10 gap-36 xl:gap-16 sm:gap-5 xl:py-20 mt-[-250px] 3xl:mt-[-20px] xl:mt-[-350px]">
+            <div className="h-[85rem] xl:h-[78rem] 3xl:h-[61rem] xl:mt-10 sm:mt-[-150px]">
+                <video src={VIDEO} autoPlay loop muted className="h-full"></video>
             </div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-10 sm:mt-[-360px]">
                 <div className="flex flex-col gap-16 sm:gap-8">
                     <div className="flex flex-col gap-10 sm:gap-5 xl:pt-10">
                         <span className="text-7xl sm:text-5xl font-semibold font-inter">Branding</span>

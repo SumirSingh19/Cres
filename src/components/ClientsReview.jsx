@@ -2,7 +2,7 @@ import STAR from "../assets/star.png";
 
 const ClientsReview = () => {
     return (
-        <div className="flex flex-col px-60 xl:px-28 sm:px-10 py-28 gap-20">
+        <div className="flex flex-col px-60 xl:px-28 sm:px-10 3xl:mt-[-80px] xl:mt-[-350px] py-28 gap-20">
             <div className="flex flex-col gap-3">
                 <span className="uppercase sm:text-sm font-inter font-semibold">Clients Reviews</span>
                 <span className="text-6xl sm:text-3xl font-inter font-medium">What they say</span>
