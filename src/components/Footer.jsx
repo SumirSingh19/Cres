@@ -8,7 +8,9 @@ const Footer = () => {
             <div className="flex flex-col items-center font-inter gap-12">
                 <span className="text-5xl sm:text-3xl font-semibold">Let&apos;s talk</span>
                 <button className="bg-[#222222] text-white text-sm sm:text-[0.6rem] font-inter rounded-full px-9 sm:px-5 py-3 sm:py-1.5 w-[14rem] sm:w-[7.8rem]">
-                    <span>Become our Client</span>
+                    <a href="http://wa.link/0psi4e" className="no-underline">
+                        <span>Become our Client</span>
+                    </a>
                 </button>
             </div>
             <div className="flex items-center justify-between w-9/12 xl:w-10/12 sm:w-10/12">

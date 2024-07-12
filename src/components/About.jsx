@@ -24,7 +24,9 @@ const About = () => {
 
                 <div>
                     <button className="bg-[#222222] text-white text-sm sm:text-[0.6rem] font-inter rounded-full px-9 sm:px-5 py-3 sm:py-1 sm:mb-6">
-                        <span>Become our Client</span>
+                        <a href="http://wa.link/0psi4e" className="no-underline">
+                            <span>Become our Client</span>
+                        </a>
                     </button>
                 </div>
             </div>
